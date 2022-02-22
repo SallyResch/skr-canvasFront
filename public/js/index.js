@@ -42,6 +42,16 @@ function detectWalls() {
   if (player.x + player.w > canvas.width) {
     plater.x = canvas.width - player.w;
   }
+
+  //Top wall
+  if (player.y < 0) {
+    player.y = 0;
+  }
+
+  //Bottom wall
+  if (player.y + player.h > canvas.height) {
+    plater.y = canvas.height - player.h;
+  }
 }
 
 function update() {
