@@ -1,0 +1,12 @@
+{
+  "name": "skr-canvasFront",
+  "description": "Javascript frontend",
+  "repository": "https://github.com/SallyResch/skr-canvasFront",
+  "logo": "http://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
+  "image": "heroku/nodejs"
+}
