@@ -40,7 +40,7 @@ function detectWalls() {
 
   //Right wall
   if (player.x + player.w > canvas.width) {
-    plater.x = canvas.width - player.w;
+    player.x = canvas.width - player.w;
   }
 
   //Top wall
@@ -50,7 +50,7 @@ function detectWalls() {
 
   //Bottom wall
   if (player.y + player.h > canvas.height) {
-    plater.y = canvas.height - player.h;
+    player.y = canvas.height - player.h;
   }
 }
 
@@ -73,18 +73,18 @@ function moveDown() {
 function moveRight() {
   player.dx = player.speed;
 }
-function moveUp() {
+function moveLeft() {
   player.dx = -player.speed;
 }
 function keyDown(e) {
-  if (e.key === 'ArrowRight' || 'Right') {
+  if (e.key === 'ArrowRight' || e.key === 'Right') {
     moveRight();
   } else if (e.key === 'ArrowLeft' || e.key === 'Left') {
     moveLeft();
-  } else if (e.key === 'ArrowDown' || e.key === 'Down') {
-    moveDown();
   } else if (e.key === 'ArrowUp' || e.key === 'Up') {
     moveUp();
+  } else if (e.key === 'ArrowDown' || e.key === 'Down') {
+    moveDown();
   }
 }
 
