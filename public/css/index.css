@@ -13,12 +13,3 @@ min-height: 100vh;
 text-align: center;
 margin: 0;
 }
-
-#canvas{
-  background: rgb(46, 0, 173);
-  border-radius: 5px;
-}
-
-#source{
-  display: none;
-}
