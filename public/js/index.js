@@ -14,7 +14,7 @@ const player = {
   speed: 5,
   dx: 0,
   dy: 0
-};
+}
 
 function drawPlayer() {
   ctx.drawImage(image, player.x, player.y, player.w, player.h);
