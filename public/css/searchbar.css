@@ -6,6 +6,11 @@ body {
   box-sizing: border-box;
 }
 
+form.searchFieldSubtitution {
+  width: 50%;
+
+}
+
 form.searchFieldSubtitution input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -13,17 +18,18 @@ form.searchFieldSubtitution input[type=text] {
   float: left;
   width: 80%;
   background: #f1f1f1;
+  border-radius: 8px 0px 0px 8px;
 }
 
 form.searchFieldSubtitution button {
   float: left;
-  width: 20%;
+  width: 10%;
   padding: 10px;
   background: #FEF083;
-  color: white;
+  color: black;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none;
+  border-radius: 0px 8px 8px 0px;
   cursor: pointer;
 }
 
