@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-form.example input[type=text] {
+form.searchFieldSubtitution input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -15,7 +15,7 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
-form.example button {
+form.searchFieldSubtitution button {
   float: left;
   width: 20%;
   padding: 10px;
@@ -27,7 +27,7 @@ form.example button {
   cursor: pointer;
 }
 
-form.example::after {
+form.searchFieldSubtitution::after {
   content: "";
   clear: both;
   display: table;
